@@ -56,7 +56,7 @@ The URL of the generated CloudFront distribution will be exported.
 
 In the S3 bucket, create a folder called `images` and upload a file called `car.jpg` to that folder.
 
-Send a request to: https://CLOUDFRONT_URL/ENVIRONMENT and https://CLOUDFRONT_URL/images/car.jpg
+Send a request to: `https://CLOUDFRONT_URL/ENVIRONMENT` and `https://CLOUDFRONT_URL/images/car.jpg`
 
 In the `variables.tfvars` file, you can set the environment name for the CloudFront URL.
 
